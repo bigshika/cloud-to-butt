@@ -4,7 +4,6 @@
     "version": "1.0",
     "description": "Replaces the text 'gate' with 'fart'.",
 	"icons": {
-           "32": "icon32.png",
            "48": "icon48.png"
        },
 	"content_scripts": 
