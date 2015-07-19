@@ -3,6 +3,9 @@
     "name": "Gate to Fart",
     "version": "1.0",
     "description": "Replaces the text 'gate' with 'fart'.",
+	"icons": {
+           "48": "icon48.png"
+       },
 	"content_scripts": 
 	[
 		{
