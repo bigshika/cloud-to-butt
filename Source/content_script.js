@@ -32,13 +32,13 @@ function walk(node)
 function handleText(textNode) {
 	var v = textNode.nodeValue;
 	var gates = {
-	gate:"fart",
-	gated:"farted",
-	Gate: "Fart",
+	gated: "farted",
+	gate: "fart",
 	Gated: "Farted",
+	Gate: "Fart"
 	};
 
-	v = v.replace(/gate|gated/gi, function(matched){
+	v = v.replace(/gated|gate/gi, function(matched){
 	return gates[matched];
 	});
 	
